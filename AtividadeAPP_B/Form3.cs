@@ -29,9 +29,24 @@ namespace AtividadeAPP_B
             dolar = Convert.ToDouble(txtdolar.Text);
 
             resultado = real / dolar;
-
+            txtres.Text = resultado.ToString();
             
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtdolar.Clear();
+            txtreal.Clear();
+            txtres.Clear();
+            txtreal.Focus();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmmenu menu = new frmmenu();
+            menu.Show();
         }
     }
 }
