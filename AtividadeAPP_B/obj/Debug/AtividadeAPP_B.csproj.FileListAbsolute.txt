@@ -55,3 +55,23 @@ F:\1A-DS-MTEC\DUPLAS 3°BIMESTRE\Vitor Hugo e Yann\TPA\C#\AtividadeAPP_B\Ativida
 F:\1A-DS-MTEC\DUPLAS 3°BIMESTRE\Vitor Hugo e Yann\TPA\C#\AtividadeAPP_B\AtividadeAPP_B\bin\Debug\AtividadeAPP_B.exe.config
 F:\1A-DS-MTEC\DUPLAS 3°BIMESTRE\Vitor Hugo e Yann\TPA\C#\AtividadeAPP_B\AtividadeAPP_B\bin\Debug\AtividadeAPP_B.exe
 F:\1A-DS-MTEC\DUPLAS 3°BIMESTRE\Vitor Hugo e Yann\TPA\C#\AtividadeAPP_B\AtividadeAPP_B\bin\Debug\AtividadeAPP_B.pdb
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\bin\Debug\AtividadeAPP_B.exe.config
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\bin\Debug\AtividadeAPP_B.exe
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\bin\Debug\AtividadeAPP_B.pdb
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.csproj.AssemblyReference.cache
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.exe.config
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv11.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv6.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv2.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv7.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv8.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv9.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.txtres.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.frmmenu.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv3.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Atv10.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.Properties.Resources.resources
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.csproj.GenerateResource.cache
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.csproj.CoreCompileInputs.cache
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.exe
+C:\Users\1ds.BGLAB\Desktop\AtividadeAPP\AtividadeAPP_B\obj\Debug\AtividadeAPP_B.pdb

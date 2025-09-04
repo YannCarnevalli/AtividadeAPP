@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Atv11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atv11.Designer.cs">
+      <DependentUpon>Atv11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atv12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atv12.Designer.cs">
+      <DependentUpon>Atv12.cs</DependentUpon>
+    </Compile>
     <Compile Include="Atv6.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +114,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Atv11.resx">
+      <DependentUpon>Atv11.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Atv6.resx">
       <DependentUpon>Atv6.cs</DependentUpon>
     </EmbeddedResource>

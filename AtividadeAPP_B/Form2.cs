@@ -87,7 +87,16 @@ namespace AtividadeAPP_B
 
         private void atividade11ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Atv11 atividade11 = new Atv11();
+            atividade11.Show();
+        }
+
+        private void atividade12ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Atv12 atividade12 = new Atv12();
+            atividade12.Show();
         }
     }
 }

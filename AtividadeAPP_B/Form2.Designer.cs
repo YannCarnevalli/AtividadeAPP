@@ -41,9 +41,10 @@
             this.atividade08ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade09ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atividade11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.atividade11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atividade12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +72,8 @@
             this.atividade08ToolStripMenuItem,
             this.atividade09ToolStripMenuItem,
             this.atividade10ToolStripMenuItem,
-            this.atividade11ToolStripMenuItem});
+            this.atividade11ToolStripMenuItem,
+            this.atividade12ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -145,6 +147,13 @@
             this.atividade10ToolStripMenuItem.Text = "Atividade10";
             this.atividade10ToolStripMenuItem.Click += new System.EventHandler(this.atividade10ToolStripMenuItem_Click);
             // 
+            // atividade11ToolStripMenuItem
+            // 
+            this.atividade11ToolStripMenuItem.Name = "atividade11ToolStripMenuItem";
+            this.atividade11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atividade11ToolStripMenuItem.Text = "Atividade 11";
+            this.atividade11ToolStripMenuItem.Click += new System.EventHandler(this.atividade11ToolStripMenuItem_Click);
+            // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -157,12 +166,12 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // atividade11ToolStripMenuItem
+            // atividade12ToolStripMenuItem
             // 
-            this.atividade11ToolStripMenuItem.Name = "atividade11ToolStripMenuItem";
-            this.atividade11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.atividade11ToolStripMenuItem.Text = "Atividade 11";
-            this.atividade11ToolStripMenuItem.Click += new System.EventHandler(this.atividade11ToolStripMenuItem_Click);
+            this.atividade12ToolStripMenuItem.Name = "atividade12ToolStripMenuItem";
+            this.atividade12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atividade12ToolStripMenuItem.Text = "Atividade 12";
+            this.atividade12ToolStripMenuItem.Click += new System.EventHandler(this.atividade12ToolStripMenuItem_Click);
             // 
             // frmmenu
             // 
@@ -197,5 +206,6 @@
         private System.Windows.Forms.ToolStripMenuItem atividade09ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem atividade10ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem atividade11ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atividade12ToolStripMenuItem;
     }
 }
