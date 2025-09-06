@@ -10,29 +10,28 @@ using System.Windows.Forms;
 
 namespace AtividadeAPP_B
 {
-    public partial class Atv05 : Form
+    public partial class Atv5 : Form
     {
-        public Atv05()
+        public Atv5()
         {
             InitializeComponent();
         }
 
-        private void btncalcular_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
             double r, area;
-            r = Convert.ToDouble(txtraio.Text);
+            r = Convert.ToDouble(txtRaio.Text);
             area = 3.14 * Math.Pow(r, 2);
 
-            txtres.Text = area.ToString();
+            txtRes.Text = area.ToString();
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)
         {
-            txtraio.Clear();
-            txtres.Clear();
+            txtRaio.Clear();
+            txtRes.Clear();
 
-            txtraio.Focus();
-
+            txtRaio.Focus();
         }
 
         private void btnvoltar_Click(object sender, EventArgs e)
@@ -40,6 +39,11 @@ namespace AtividadeAPP_B
             this.Hide();
             frmmenu menu = new frmmenu();
             menu.Show();
+        }
+
+        private void Atv5_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

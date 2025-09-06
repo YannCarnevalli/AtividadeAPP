@@ -1,6 +1,6 @@
 ﻿namespace AtividadeAPP_B
 {
-    partial class Atv04
+    partial class Atv4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,153 +28,144 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblnum = new System.Windows.Forms.Label();
-            this.lblnum2 = new System.Windows.Forms.Label();
-            this.lblnum3 = new System.Windows.Forms.Label();
-            this.lblresultado = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtnum = new System.Windows.Forms.TextBox();
-            this.txtnum2 = new System.Windows.Forms.TextBox();
-            this.txtnum3 = new System.Windows.Forms.TextBox();
+            this.lblNum1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNum1 = new System.Windows.Forms.TextBox();
+            this.txtNum2 = new System.Windows.Forms.TextBox();
+            this.txtNum3 = new System.Windows.Forms.TextBox();
+            this.lblres = new System.Windows.Forms.Label();
             this.txtres = new System.Windows.Forms.TextBox();
             this.btncalcular = new System.Windows.Forms.Button();
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnvoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblnum
+            // lblNum1
             // 
-            this.lblnum.AutoSize = true;
-            this.lblnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblnum.Location = new System.Drawing.Point(41, 40);
-            this.lblnum.Name = "lblnum";
-            this.lblnum.Size = new System.Drawing.Size(226, 31);
-            this.lblnum.TabIndex = 0;
-            this.lblnum.Text = "Digite um número";
+            this.lblNum1.AutoSize = true;
+            this.lblNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.lblNum1.Location = new System.Drawing.Point(87, 74);
+            this.lblNum1.Name = "lblNum1";
+            this.lblNum1.Size = new System.Drawing.Size(197, 26);
+            this.lblNum1.TabIndex = 0;
+            this.lblNum1.Text = "Digite um número: ";
             // 
-            // lblnum2
+            // label1
             // 
-            this.lblnum2.AutoSize = true;
-            this.lblnum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblnum2.Location = new System.Drawing.Point(41, 92);
-            this.lblnum2.Name = "lblnum2";
-            this.lblnum2.Size = new System.Drawing.Size(251, 31);
-            this.lblnum2.TabIndex = 1;
-            this.lblnum2.Text = "Digite outro número";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label1.Location = new System.Drawing.Point(34, 210);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(250, 26);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Digite mais um número: ";
             // 
-            // lblnum3
+            // label3
             // 
-            this.lblnum3.AutoSize = true;
-            this.lblnum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblnum3.Location = new System.Drawing.Point(12, 156);
-            this.lblnum3.Name = "lblnum3";
-            this.lblnum3.Size = new System.Drawing.Size(290, 31);
-            this.lblnum3.TabIndex = 2;
-            this.lblnum3.Text = "Digite mais um número";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label3.Location = new System.Drawing.Point(69, 138);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(215, 26);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Digite outro número: ";
             // 
-            // lblresultado
+            // txtNum1
             // 
-            this.lblresultado.AutoSize = true;
-            this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblresultado.Location = new System.Drawing.Point(60, 241);
-            this.lblresultado.Name = "lblresultado";
-            this.lblresultado.Size = new System.Drawing.Size(152, 31);
-            this.lblresultado.TabIndex = 3;
-            this.lblresultado.Text = "Resultado: ";
-            this.lblresultado.Click += new System.EventHandler(this.lblresultado_Click);
+            this.txtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.txtNum1.Location = new System.Drawing.Point(290, 68);
+            this.txtNum1.Name = "txtNum1";
+            this.txtNum1.Size = new System.Drawing.Size(161, 32);
+            this.txtNum1.TabIndex = 4;
+            this.txtNum1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label5
+            // txtNum2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(636, 201);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
-            this.label5.TabIndex = 4;
+            this.txtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.txtNum2.Location = new System.Drawing.Point(290, 138);
+            this.txtNum2.Name = "txtNum2";
+            this.txtNum2.Size = new System.Drawing.Size(161, 32);
+            this.txtNum2.TabIndex = 5;
             // 
-            // txtnum
+            // txtNum3
             // 
-            this.txtnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtnum.Location = new System.Drawing.Point(317, 52);
-            this.txtnum.Name = "txtnum";
-            this.txtnum.Size = new System.Drawing.Size(245, 32);
-            this.txtnum.TabIndex = 5;
-            this.txtnum.TextChanged += new System.EventHandler(this.txtnum_TextChanged);
+            this.txtNum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.txtNum3.Location = new System.Drawing.Point(290, 210);
+            this.txtNum3.Name = "txtNum3";
+            this.txtNum3.Size = new System.Drawing.Size(161, 32);
+            this.txtNum3.TabIndex = 6;
             // 
-            // txtnum2
+            // lblres
             // 
-            this.txtnum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtnum2.Location = new System.Drawing.Point(317, 104);
-            this.txtnum2.Name = "txtnum2";
-            this.txtnum2.Size = new System.Drawing.Size(245, 32);
-            this.txtnum2.TabIndex = 6;
-            // 
-            // txtnum3
-            // 
-            this.txtnum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtnum3.Location = new System.Drawing.Point(317, 155);
-            this.txtnum3.Name = "txtnum3";
-            this.txtnum3.Size = new System.Drawing.Size(245, 32);
-            this.txtnum3.TabIndex = 7;
+            this.lblres.AutoSize = true;
+            this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.lblres.Location = new System.Drawing.Point(535, 138);
+            this.lblres.Name = "lblres";
+            this.lblres.Size = new System.Drawing.Size(0, 24);
+            this.lblres.TabIndex = 7;
             // 
             // txtres
             // 
             this.txtres.Enabled = false;
             this.txtres.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtres.Location = new System.Drawing.Point(222, 244);
+            this.txtres.Location = new System.Drawing.Point(845, 135);
             this.txtres.Name = "txtres";
-            this.txtres.Size = new System.Drawing.Size(245, 32);
+            this.txtres.Size = new System.Drawing.Size(161, 32);
             this.txtres.TabIndex = 8;
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(86, 322);
+            this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btncalcular.Location = new System.Drawing.Point(74, 418);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(171, 46);
-            this.btncalcular.TabIndex = 9;
+            this.btncalcular.Size = new System.Drawing.Size(237, 45);
+            this.btncalcular.TabIndex = 12;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(296, 322);
+            this.btnlimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnlimpar.Location = new System.Drawing.Point(438, 418);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(171, 46);
-            this.btnlimpar.TabIndex = 10;
+            this.btnlimpar.Size = new System.Drawing.Size(237, 45);
+            this.btnlimpar.TabIndex = 15;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
-            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click_1);
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(504, 322);
+            this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnvoltar.Location = new System.Drawing.Point(792, 418);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(144, 46);
-            this.btnvoltar.TabIndex = 11;
+            this.btnvoltar.Size = new System.Drawing.Size(237, 45);
+            this.btnvoltar.TabIndex = 16;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
-            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click_1);
             // 
-            // Atv04
+            // Atv4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1097, 516);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalcular);
             this.Controls.Add(this.txtres);
-            this.Controls.Add(this.txtnum3);
-            this.Controls.Add(this.txtnum2);
-            this.Controls.Add(this.txtnum);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.lblresultado);
-            this.Controls.Add(this.lblnum3);
-            this.Controls.Add(this.lblnum2);
-            this.Controls.Add(this.lblnum);
-            this.Name = "Atv04";
-            this.Text = "Atividade 04";
-            this.Load += new System.EventHandler(this.Form4_Load);
+            this.Controls.Add(this.lblres);
+            this.Controls.Add(this.txtNum3);
+            this.Controls.Add(this.txtNum2);
+            this.Controls.Add(this.txtNum1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblNum1);
+            this.Name = "Atv4";
+            this.Text = "Atv4";
+            this.Load += new System.EventHandler(this.Atv4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,14 +173,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblnum;
-        private System.Windows.Forms.Label lblnum2;
-        private System.Windows.Forms.Label lblnum3;
-        private System.Windows.Forms.Label lblresultado;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtnum;
-        private System.Windows.Forms.TextBox txtnum2;
-        private System.Windows.Forms.TextBox txtnum3;
+        private System.Windows.Forms.Label lblNum1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtNum1;
+        private System.Windows.Forms.TextBox txtNum2;
+        private System.Windows.Forms.TextBox txtNum3;
+        private System.Windows.Forms.Label lblres;
         private System.Windows.Forms.TextBox txtres;
         private System.Windows.Forms.Button btncalcular;
         private System.Windows.Forms.Button btnlimpar;

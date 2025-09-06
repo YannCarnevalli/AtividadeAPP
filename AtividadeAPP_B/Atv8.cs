@@ -68,6 +68,7 @@ namespace AtividadeAPP_B
         private void btnlimpar_Click(object sender, EventArgs e)
         {
             txtPubTotal.Clear();
+            txtRes.Clear();
             txtPubTotal.Focus().ToString();
         }
     }

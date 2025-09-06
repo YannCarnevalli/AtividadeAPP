@@ -1,6 +1,6 @@
 ﻿namespace AtividadeAPP_B
 {
-    partial class Atv05
+    partial class Atv5
     {
         /// <summary>
         /// Required designer variable.
@@ -28,99 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblraio = new System.Windows.Forms.Label();
-            this.lblres = new System.Windows.Forms.Label();
-            this.txtres = new System.Windows.Forms.TextBox();
-            this.txtraio = new System.Windows.Forms.TextBox();
-            this.btncalcular = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtRaio = new System.Windows.Forms.TextBox();
+            this.lblRes = new System.Windows.Forms.Label();
+            this.txtRes = new System.Windows.Forms.TextBox();
+            this.btnCalcular = new System.Windows.Forms.Button();
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnvoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblraio
+            // label2
             // 
-            this.lblraio.AutoSize = true;
-            this.lblraio.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.lblraio.Location = new System.Drawing.Point(29, 64);
-            this.lblraio.Name = "lblraio";
-            this.lblraio.Size = new System.Drawing.Size(338, 29);
-            this.lblraio.TabIndex = 0;
-            this.lblraio.Text = "Digite o raio da circunfêrencia:";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label2.Location = new System.Drawing.Point(15, 47);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(314, 26);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Digite o Raio da circunferência:";
             // 
-            // lblres
+            // txtRaio
             // 
-            this.lblres.AutoSize = true;
-            this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.lblres.Location = new System.Drawing.Point(59, 128);
-            this.lblres.Name = "lblres";
-            this.lblres.Size = new System.Drawing.Size(297, 29);
-            this.lblres.TabIndex = 1;
-            this.lblres.Text = "A area da circunfêrencia é:";
+            this.txtRaio.Location = new System.Drawing.Point(341, 44);
+            this.txtRaio.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtRaio.Name = "txtRaio";
+            this.txtRaio.Size = new System.Drawing.Size(256, 32);
+            this.txtRaio.TabIndex = 2;
             // 
-            // txtres
+            // lblRes
             // 
-            this.txtres.Enabled = false;
-            this.txtres.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.txtres.Location = new System.Drawing.Point(373, 128);
-            this.txtres.Name = "txtres";
-            this.txtres.Size = new System.Drawing.Size(188, 29);
-            this.txtres.TabIndex = 2;
+            this.lblRes.AutoSize = true;
+            this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.lblRes.Location = new System.Drawing.Point(58, 123);
+            this.lblRes.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblRes.Name = "lblRes";
+            this.lblRes.Size = new System.Drawing.Size(271, 26);
+            this.lblRes.TabIndex = 3;
+            this.lblRes.Text = "A area da circunferência é:";
             // 
-            // txtraio
+            // txtRes
             // 
-            this.txtraio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.txtraio.Location = new System.Drawing.Point(373, 64);
-            this.txtraio.Name = "txtraio";
-            this.txtraio.Size = new System.Drawing.Size(188, 29);
-            this.txtraio.TabIndex = 3;
+            this.txtRes.Enabled = false;
+            this.txtRes.Location = new System.Drawing.Point(341, 120);
+            this.txtRes.Margin = new System.Windows.Forms.Padding(6);
+            this.txtRes.Name = "txtRes";
+            this.txtRes.Size = new System.Drawing.Size(256, 32);
+            this.txtRes.TabIndex = 4;
             // 
-            // btncalcular
+            // btnCalcular
             // 
-            this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btncalcular.Location = new System.Drawing.Point(64, 233);
-            this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(148, 39);
-            this.btncalcular.TabIndex = 4;
-            this.btncalcular.Text = "calcular";
-            this.btncalcular.UseVisualStyleBackColor = true;
-            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnCalcular.Location = new System.Drawing.Point(20, 303);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(234, 45);
+            this.btnCalcular.TabIndex = 16;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnlimpar
             // 
             this.btnlimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnlimpar.Location = new System.Drawing.Point(255, 233);
+            this.btnlimpar.Location = new System.Drawing.Point(292, 303);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(148, 39);
-            this.btnlimpar.TabIndex = 5;
-            this.btnlimpar.Text = "limpar";
+            this.btnlimpar.Size = new System.Drawing.Size(230, 45);
+            this.btnlimpar.TabIndex = 17;
+            this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
             this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnvoltar
             // 
             this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnvoltar.Location = new System.Drawing.Point(437, 233);
+            this.btnvoltar.Location = new System.Drawing.Point(564, 303);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(148, 39);
-            this.btnvoltar.TabIndex = 6;
-            this.btnvoltar.Text = "voltar";
+            this.btnvoltar.Size = new System.Drawing.Size(203, 45);
+            this.btnvoltar.TabIndex = 18;
+            this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
             this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
-            // Atv05
+            // Atv5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
-            this.Controls.Add(this.btncalcular);
-            this.Controls.Add(this.txtraio);
-            this.Controls.Add(this.txtres);
-            this.Controls.Add(this.lblres);
-            this.Controls.Add(this.lblraio);
-            this.Name = "Atv05";
-            this.Text = "Form5";
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.txtRes);
+            this.Controls.Add(this.lblRes);
+            this.Controls.Add(this.txtRaio);
+            this.Controls.Add(this.label2);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Name = "Atv5";
+            this.Text = "Atv5";
+            this.Load += new System.EventHandler(this.Atv5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,11 +133,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblraio;
-        private System.Windows.Forms.Label lblres;
-        private System.Windows.Forms.TextBox txtres;
-        private System.Windows.Forms.TextBox txtraio;
-        private System.Windows.Forms.Button btncalcular;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtRaio;
+        private System.Windows.Forms.Label lblRes;
+        private System.Windows.Forms.TextBox txtRes;
+        private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btnvoltar;
     }

@@ -34,7 +34,7 @@ namespace AtividadeAPP_B
 
         private void calcular_Click(object sender, EventArgs e)
         {
-            double altura, peso, IMC;
+            double altura, peso, IMC, arredondado;
             string classe;
 
                 altura = Convert.ToDouble(txtAltura.Text);
@@ -72,8 +72,12 @@ namespace AtividadeAPP_B
                 classe = "Obesidade classe III";
             }
 
-            txtIMC.Text = IMC.ToString();
+            arredondado = Math.Round(IMC, 1);
+
+            txtIMC.Text = arredondado.ToString();
             txtClasse.Text = classe.ToString();
+
+            // Não sei se nesse exercicio deveria ter sido usado switch case, mas na versão do meu c# diz que ( <, >, <= e >=) não podem ser usados no swith case
 
         }
 
