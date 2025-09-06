@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.atividadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.semestreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade01ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade02ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade03ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,6 +39,8 @@
             this.atividade05ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade06ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade07ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.semestreToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade08ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade09ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,10 +48,10 @@
             this.atividade12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.semestreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.semestreToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.lblatv = new System.Windows.Forms.Label();
+            this.lblnomes = new System.Windows.Forms.Label();
+            this.lblyann = new System.Windows.Forms.Label();
+            this.lblvitor = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +88,12 @@
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
+            // 
+            // semestreToolStripMenuItem
+            // 
+            this.semestreToolStripMenuItem.Name = "semestreToolStripMenuItem";
+            this.semestreToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.semestreToolStripMenuItem.Text = "1Semestre:";
             // 
             // atividade01ToolStripMenuItem
             // 
@@ -135,6 +144,18 @@
             this.atividade07ToolStripMenuItem.Text = "Atividade07";
             this.atividade07ToolStripMenuItem.Click += new System.EventHandler(this.atividade07ToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(274, 22);
+            this.toolStripMenuItem2.Text = "----------------------------------------";
+            // 
+            // semestreToolStripMenuItem1
+            // 
+            this.semestreToolStripMenuItem1.Name = "semestreToolStripMenuItem1";
+            this.semestreToolStripMenuItem1.Size = new System.Drawing.Size(274, 22);
+            this.semestreToolStripMenuItem1.Text = "2Semestre";
+            // 
             // atividade08ToolStripMenuItem
             // 
             this.atividade08ToolStripMenuItem.Name = "atividade08ToolStripMenuItem";
@@ -182,34 +203,49 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // semestreToolStripMenuItem
-            // 
-            this.semestreToolStripMenuItem.Name = "semestreToolStripMenuItem";
-            this.semestreToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
-            this.semestreToolStripMenuItem.Text = "1Semestre:";
-            // 
-            // semestreToolStripMenuItem1
-            // 
-            this.semestreToolStripMenuItem1.Name = "semestreToolStripMenuItem1";
-            this.semestreToolStripMenuItem1.Size = new System.Drawing.Size(274, 22);
-            this.semestreToolStripMenuItem1.Text = "2Semestre";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(274, 22);
-            this.toolStripMenuItem2.Text = "----------------------------------------";
-            // 
             // lblatv
             // 
             this.lblatv.AutoSize = true;
             this.lblatv.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
             this.lblatv.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblatv.Location = new System.Drawing.Point(191, 171);
+            this.lblatv.Location = new System.Drawing.Point(199, 145);
             this.lblatv.Name = "lblatv";
             this.lblatv.Size = new System.Drawing.Size(377, 51);
             this.lblatv.TabIndex = 1;
             this.lblatv.Text = "Atividades de TPA";
+            // 
+            // lblnomes
+            // 
+            this.lblnomes.AutoSize = true;
+            this.lblnomes.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lblnomes.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lblnomes.Location = new System.Drawing.Point(114, 336);
+            this.lblnomes.Name = "lblnomes";
+            this.lblnomes.Size = new System.Drawing.Size(128, 37);
+            this.lblnomes.TabIndex = 2;
+            this.lblnomes.Text = "Nomes:";
+            // 
+            // lblyann
+            // 
+            this.lblyann.AutoSize = true;
+            this.lblyann.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.lblyann.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblyann.Location = new System.Drawing.Point(47, 404);
+            this.lblyann.Name = "lblyann";
+            this.lblyann.Size = new System.Drawing.Size(283, 31);
+            this.lblyann.TabIndex = 3;
+            this.lblyann.Text = "Yann Pietro Carnevalli";
+            // 
+            // lblvitor
+            // 
+            this.lblvitor.AutoSize = true;
+            this.lblvitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.lblvitor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblvitor.Location = new System.Drawing.Point(12, 373);
+            this.lblvitor.Name = "lblvitor";
+            this.lblvitor.Size = new System.Drawing.Size(348, 31);
+            this.lblvitor.TabIndex = 4;
+            this.lblvitor.Text = "Vitor Hugo Graciano Magno";
             // 
             // frmmenu
             // 
@@ -217,6 +253,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblvitor);
+            this.Controls.Add(this.lblyann);
+            this.Controls.Add(this.lblnomes);
             this.Controls.Add(this.lblatv);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -252,5 +291,8 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem semestreToolStripMenuItem1;
         private System.Windows.Forms.Label lblatv;
+        private System.Windows.Forms.Label lblnomes;
+        private System.Windows.Forms.Label lblyann;
+        private System.Windows.Forms.Label lblvitor;
     }
 }
