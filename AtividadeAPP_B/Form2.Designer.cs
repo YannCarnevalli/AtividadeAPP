@@ -52,6 +52,7 @@
             this.lblnomes = new System.Windows.Forms.Label();
             this.lblyann = new System.Windows.Forms.Label();
             this.lblvitor = new System.Windows.Forms.Label();
+            this.atividade13ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,7 +85,8 @@
             this.atividade09ToolStripMenuItem,
             this.atividade10ToolStripMenuItem,
             this.atividade11ToolStripMenuItem,
-            this.atividade12ToolStripMenuItem});
+            this.atividade12ToolStripMenuItem,
+            this.atividade13ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -247,6 +249,12 @@
             this.lblvitor.TabIndex = 4;
             this.lblvitor.Text = "Vitor Hugo Graciano Magno";
             // 
+            // atividade13ToolStripMenuItem
+            // 
+            this.atividade13ToolStripMenuItem.Name = "atividade13ToolStripMenuItem";
+            this.atividade13ToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.atividade13ToolStripMenuItem.Text = "Atividade 13";
+            // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,5 +302,6 @@
         private System.Windows.Forms.Label lblnomes;
         private System.Windows.Forms.Label lblyann;
         private System.Windows.Forms.Label lblvitor;
+        private System.Windows.Forms.ToolStripMenuItem atividade13ToolStripMenuItem;
     }
 }
